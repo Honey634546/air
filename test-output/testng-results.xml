@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="30" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-05-23T03:16:27Z" name="Default Suite" finished-at="2020-05-23T03:16:27Z" duration-ms="171">
+    <groups>
+    </groups>
+    <test started-at="2020-05-23T03:16:27Z" name="air" finished-at="2020-05-23T03:16:27Z" duration-ms="171">
+      <class name="com.ari.AirTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=600, flight_type=区域5, packages=80,40,30,30,80,50,30,40,80,30,50,40, throuth_US=否, passenger_type=凤凰知音终身白金卡、白金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=450, flight_type=区域5, packages=80,40,30,30,80,50,30,20,80,30,50,10, throuth_US=否, passenger_type=凤凰知音终身白金卡、白金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=450, flight_type=区域5, packages=80,40,30,30,80,50,30,40,80,30,50,50, throuth_US=否, passenger_type=星空联盟金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=20,40,30,10, throuth_US=否, passenger_type=婴儿乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,20,80,50,30,40, throuth_US=否, passenger_type=凤凰知音金卡、银卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,30,80,50,30,40, throuth_US=否, passenger_type=凤凰知音终身白金卡、白金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,20,80,50,30,40, throuth_US=否, passenger_type=星空联盟金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=20,40,30,10, throuth_US=否, passenger_type=婴儿乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,20,80,50,30,40, throuth_US=否, passenger_type=凤凰知音金卡、银卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=中国大陆, s_location=中国大陆, price=1000, ans=450, flight_type=区域5, packages=80,40,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=80,40,30,20,80,50,30,40, throuth_US=否, passenger_type=星空联盟金卡乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=中国大陆, s_location=中国大陆, price=1000, ans=0, flight_type=区域5, packages=20,40,30,10, throuth_US=否, passenger_type=婴儿乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=美洲, s_location=欧洲, price=1000, ans=0, flight_type=区域1, packages=80,40,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=美洲, s_location=欧洲, price=1000, ans=1100, flight_type=区域2, packages=80,40,30,30,80,50,30,40, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=美洲, s_location=欧洲, price=1000, ans=1690, flight_type=区域3, packages=80,40,30,20,80,50,30,40, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=美洲, s_location=欧洲, price=1000, ans=0, flight_type=区域4, packages=20,40,30,10, throuth_US=否, passenger_type=婴儿乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=加勒比地区, s_location=西南太平洋, price=1000, ans=2380, flight_type=区域1, packages=100,60,40,20, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=加勒比地区, s_location=西南太平洋, price=1000, ans=2890, flight_type=区域2, packages=100,60,40,20,10,60,80,50, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=美洲, s_location=加拿大, price=1000, ans=1690, flight_type=区域3, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=美洲, s_location=加拿大, price=1000, ans=0, flight_type=区域4, packages=80,40,30,30,80,40,30,20, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=美洲, s_location=加拿大, price=1000, ans=2860, flight_type=区域3, packages=80,40,30,30,80,40,30,20,80,50,30,30,10,40,10,20, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=加勒比海, s_location=美国, price=1000, ans=3430, flight_type=区域4, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=加勒比海, s_location=美国, price=1000, ans=2760, flight_type=区域5, packages=80,40,30,30,80,40,30,20,80,50,30,30,20,50,60,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=非洲, s_location=新加坡, price=1000, ans=1660, flight_type=区域5, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=欧洲, s_location=美洲, price=1000, ans=5780, flight_type=区域1, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=悦享经济舱、超级经济舱, e_location=欧洲, s_location=美洲, price=1000, ans=3990, flight_type=区域2, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=头等舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=1200, flight_type=区域5, packages=80,40,30,30,80,40,30,20,80,50,30,30, throuth_US=否, passenger_type=婴儿乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="setUp" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="testCaculate_cost(java.util.Map)[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="testCaculate_cost" data-provider="providerMethod" finished-at="2020-05-23T03:16:27Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{cockpit_type=公务舱旅客, e_location=中国大陆, s_location=中国大陆, price=1000, ans=450, flight_type=区域5, packages=80,40,30,30,80,40,30,30, throuth_US=否, passenger_type=普通乘客}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCaculate_cost -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ari.AirTest@6b1274d2]" started-at="2020-05-23T03:16:27Z" name="tearDown" finished-at="2020-05-23T03:16:27Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ari.AirTest -->
+    </test> <!-- air -->
+  </suite> <!-- Default Suite -->
+</testng-results>

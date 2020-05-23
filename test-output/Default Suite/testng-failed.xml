@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="air(failed)">
+    <classes>
+      <class name="com.ari.AirTest">
+        <methods>
+          <include name="testCaculate_cost" invocation-numbers="25"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.ari.AirTest -->
+    </classes>
+  </test> <!-- air(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
